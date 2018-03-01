@@ -1,0 +1,155 @@
+#block-img-slide{
+	margin-left:40px;
+	height:85px;
+	width:auto;
+}
+#block-img-slide li{
+	padding:3px;
+	float:left;
+	margin-left:10px;
+	border:1px solid #DBDBDB;
+	cursor:pointer;
+}
+#block-img-slide li :hover{
+	border:1px solid #FFA7A7;
+}
+#block-img-slide a{
+	height:73px;
+	display:block;
+}
+
+
+/*tabs*/
+#tabs-container{
+	position:relative;
+	width:600px;
+	height:40px;
+	margin-top:60px;
+}
+#tabs-container li{
+	margin-top:12px;
+	float:left;
+	margin-right:-2px;
+}
+#tabs-container li a{
+	text-decoration:none;
+	padding:10px 20px;
+	cursor:pointer;
+	border:1px solid #DCDCDC;
+	font:bold 15px sans-serif;
+	color: white;
+	background: #C4C4C4 ;
+}
+#tabs-container li a:hover{
+	color: #FFC5A9;
+}
+#tabs-container li a:active{
+	color: black;
+	background: white;
+	border-bottom:2px solid white;
+}
+
+#tabs-text{
+	border:2px solid #DCDCDC; 
+	padding: 30px;
+	margin-top:-2px;
+}
+#tabs-text>div{
+	display:none;
+}
+.active-tab{
+	border-bottom:2px solid white !important;
+	background:white !important;
+	color:black !important;
+}
+.active-tab-text{
+ display: block !important;
+}
+
+
+#link-send a{
+	text-decoration:none;
+	font:bold 13px sans-serif;
+	border-bottom:1px dashed #F79B80  ;
+	color:#F79B80  ;
+	cursor:pointer;
+}
+#link-send a:hover{
+	border-bottom:none;
+}
+
+.block-reviews{
+	border-bottom:1px dashed #F8DED7  ;
+	margin-top:20px;
+}
+.block-reviews img{
+	float:left;
+	margin-left:25px;
+	margin-top:3px;
+}
+.author-date{
+	font:14px sans-serif;
+	margin-left:20px;
+	color:#F6724B ;
+}
+.txtg{
+	margin-left:50px;
+	margin-top:0px;
+	margin-right:100px;
+	font:14px sans-serif;
+}
+.text-comment{
+	margin-left:20px;
+	font:15px sans-serif;
+}
+
+#send-reviews{
+	display:none;
+	width:350px;
+	height:450px;
+}
+
+
+#title-riviews{
+	margin-top:10px;
+	margin-bottom:5px;
+	font:14px sans-serif;
+	
+}
+
+#send-reviews input{
+	width:200px;
+	height:25px;
+	margin-right:50px;
+	margin-top:15px;
+	border:1px solid #DBDBDB;
+}
+#send-reviews textarea{
+	width:250px;
+	height:85px;
+	margin-right:20px;
+	border:1px solid #DBDBDB;
+}
+#label-name{
+	font:14px sans-serif;
+	margin-right:10px;
+}
+#label-good{
+	margin-left:-30px;
+	position:absolute;
+	font:14px sans-serif;
+}
+#label-bad{
+	margin-left:-30px;
+	position:absolute;
+	font:14px sans-serif;
+}
+#label-comment{
+	margin-left:-70px;
+	position:absolute;
+	font:14px sans-serif;
+}
+#button-send-review{
+	margin-left:80px;
+	border-radius:5px;
+}

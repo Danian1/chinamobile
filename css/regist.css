@@ -1,0 +1,89 @@
+.signup-main{
+	margin-left:60px;
+}
+.register-top h3 {
+	font-size: 20px;
+	color:#0072bc;
+	font-weight: 500;
+}
+.sign-left {
+	float: left;
+	width: 46%;
+	margin: 0px 0px 1em 0px;
+}
+.sign-left  input[type="text"] {
+	outline: none;
+	padding: 7px;
+	width: 80%;
+	border: 1px solid #999;
+	-webkit-appearance: none;
+	opacity: 0.4;
+      filter: alpha(opacity=40);
+	  margin-bottom:10px;
+}
+.sign-left  input[type="text"]:hover {
+    border:1px solid #999;	
+    opacity: 1.0;
+      filter: alpha(opacity=100); 
+      transition: all 0.3s ease; 
+     -webkit-transition: all 0.3s ease;
+     -moz-transition: all 0.3s ease;
+     -o-transition: all 0.3s ease;
+}
+.sign-left p {
+	font-size: 15px;
+	font-weight: 500;
+}
+.register-bottom h3 {
+	font-size: 20px;
+	font-weight: 500;
+	color: #0072bc;
+}
+.sign-right {
+	float: left;
+	width: 46%;
+}
+.sign-right input[type="password"] {
+	outline: none;
+	width: 80%;
+	padding: 7px;
+	border: 1px solid #999;
+	-webkit-appearance: none;
+	opacity: 0.4;
+      filter: alpha(opacity=40);
+	   margin-bottom:10px;
+}
+.sign-right input[type="password"]:hover {
+	border:1px solid #999;
+	opacity: 1.0;
+      filter: alpha(opacity=100); 
+      transition: all 0.3s ease; 
+     -webkit-transition: all 0.3s ease;
+     -moz-transition: all 0.3s ease;
+     -o-transition: all 0.3s ease;
+}
+.sign-right p {
+	font-size: 15px;
+	font-weight: 500;
+	color: #000;
+}
+.register-bottom input[type="submit"] {
+	background: #0072bc;
+	border: none;
+	padding: 10px 1.5em;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 500;
+	outline: none;
+	-webkit-appearance: none;
+	margin: 1em 0px 0px 0px;
+}
+.register-bottom input[type="submit"]:hover{
+	background: #646464;
+	color:#fff;
+	text-decoration:none;
+	 transition: 0.5s all;
+ -webkit-transition: 0.5s all;
+ -moz-transition:  0.5s all;
+ -o-transition:  0.5s all;
+}
